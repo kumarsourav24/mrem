@@ -1,0 +1,231 @@
+/* CSS Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 0, 0); /* Red */
+
+}
+nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: #ddd;
+}
+section {
+    padding: 20px;
+}
+#home{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    
+    background-size:cover; /* Cover the entire section */
+    background-position: center; /* Center the image within the section */
+    background-repeat:repeat; /* Prevent the image from repeating */
+    height: fit-content;
+    
+}
+#about{
+  padding: -10px;
+}
+
+#techsphere{
+  padding: 0%;
+  margin: 0%;
+  padding-top: 0%;
+  padding-right: 00px;
+}
+  
+.logo{
+    height: fit-content;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #countdown {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #countdown::before {
+    content: "Countdown:";
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #countdown span {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  #countdown span:first-child {
+    margin-left: 0;
+  }
+  
+  #countdown span:last-child {
+    margin-right: 0;
+  }
+  
+  @media (max-width: 768px) {
+    #countdown {
+      font-size: 24px;
+    }
+  }
+
+
+  /* Base styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.Header {
+  background-color: rgb(255, 0, 0)  ;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav {
+  background-color: #444;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+section {
+  padding: 20px;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .Header h1 {
+      font-size: 24px;
+  }
+
+  nav a {
+      margin: 5px;
+  }
+
+  section {
+      padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Adjustments for extra small screens */
+  .Header h1 {
+      font-size: 20px;
+  }
+
+  nav {
+      padding: 5px 0;
+  }
+
+  nav a {
+      margin: 3px;
+  }
+}
+
+  /* Reset margins and paddings */
+body, h1, h2, p, ul, ol, li, nav, header, section {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font and background colors */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.Header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgb(255, 0, 0)
+}
+
+nav {
+  background-color: #444;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+section {
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+}
